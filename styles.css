@@ -87,7 +87,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 12px 0;
+  padding: 12px 24px;
 }
 
 .topbar__nav {
@@ -245,9 +245,12 @@ img {
 }
 
 .plan-card__meta {
-  color: var(--muted);
-  font-size: 14px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 /* ========== BUTTONS ========== */
